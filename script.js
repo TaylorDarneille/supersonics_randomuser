@@ -24,13 +24,16 @@
 // // }
 
 // // taylorsFunction(['Hot Mulligan', 'Local Natives'])
-
 const addPerson = (person) => {
     // let peopleList = document.getElementById('peopleList')
     let newPerson = document.createElement('li')
     newPerson.textContent = `${person.name.first} ${person.name.last}`
     peopleList.appendChild(newPerson)
 }
+
+document.addEventListener('DOMContentLoaded', ()=>{
+    
+})
 
 const randomUserEndpoint = 'https://randomuser.me/api/?results=10'
 
